@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="133.0">com.liqi.observer.normal.WeatherData</node>
+    <node x="65.85" y="0.0">com.liqi.observer.normal.CurrentCondition</node>
+    <node x="104.67499999999998" y="335.0">com.liqi.observer.normal.UseClient</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.liqi.observer.normal.UseClient" target="com.liqi.observer.normal.CurrentCondition">
+      <point x="56.625" y="-30.0" />
+      <point x="236.79999999999998" y="310.0" />
+      <point x="238.5" y="310.0" />
+      <point x="238.5" y="108.0" />
+      <point x="253.1" y="108.0" />
+      <point x="80.25" y="41.5" />
+    </edge>
+    <edge source="com.liqi.observer.normal.WeatherData" target="com.liqi.observer.normal.CurrentCondition">
+      <point x="-54.25" y="-76.0" />
+      <point x="54.25" y="108.0" />
+      <point x="92.6" y="108.0" />
+      <point x="-80.25" y="41.5" />
+    </edge>
+    <edge source="com.liqi.observer.normal.UseClient" target="com.liqi.observer.normal.WeatherData">
+      <point x="-56.625" y="-30.0" />
+      <point x="123.54999999999998" y="310.0" />
+      <point x="54.25" y="310.0" />
+      <point x="-54.25" y="76.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="563.5" y="86.0" />
+  <SelectedNodes>
+    <node>com.liqi.observer.normal.WeatherData</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
